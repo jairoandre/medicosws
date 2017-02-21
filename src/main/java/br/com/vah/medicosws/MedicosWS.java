@@ -7,7 +7,7 @@ import javax.jws.WebService;
  * Created by jairoportela on 30/08/2016.
  */
 @WebService(name = "medicos.svc")
-public class MedicosService {
+public class MedicosWS {
 
   @WebMethod
   public String sayHello(String name) {
